@@ -5,7 +5,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-# pd.set_option('max_columns', 200)
 
 df = pd.read_csv('C:/Users/gigam/Downloads/climatechangedata.csv')
 
