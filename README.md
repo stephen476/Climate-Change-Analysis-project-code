@@ -6,22 +6,13 @@ A global research institution specializes in the monitoring of climate change ac
 
 
 
-The organization faces critical challenges in:
-
+__The organization faces critical challenges in:__
 Tracking climate trends – Climate data is scattered and lacks a unified view,
-
 making it hard to analyze temperature fluctuations, air quality shifts and precipitation patterns.
-
-
 
 Generating actionable Insights – Traditional reports are static and time-consuming, slowing down decision-making processes. 
 
-
-
 Assessing Climate Risks Visually – There is no structured way to visualize how extreme weather events impact infrastructure, population exposure, and economic stability across different regions.
 
-
-
-Solution
-
+__Solution__
 To solve these issues I will be creating an interactive dashboard that provides real-time insights helping researchers and policymakers explore and analyze KPI’s in a flexible and interactive manner quickly identify climate risks and trends at a glance.
