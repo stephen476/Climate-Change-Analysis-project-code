@@ -14,5 +14,6 @@ Generating actionable Insights – Traditional reports are static and time-consu
 
 Assessing Climate Risks Visually – There is no structured way to visualize how extreme weather events impact infrastructure, population exposure, and economic stability across different regions.
 
-__Solution__
-To solve these issues I will be creating an interactive dashboard that provides real-time insights helping researchers and policymakers explore and analyze KPI’s in a flexible and interactive manner quickly identify climate risks and trends at a glance.
+__Solution:__
+To solve these issues I will be creating an interactive dashboard that provides real-time insights helping researchers and policymakers explore and analyze KPI’s in a flexible and interactive manner quickly
+identify climate risks and trends at a glance.
