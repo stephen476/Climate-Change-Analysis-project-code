@@ -1,44 +1,27 @@
 # Climate-Change-Analysis-project-code
 
-import ast
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
+## Project Overview
 
-df = pd.read_csv('C:/Users/gigam/Downloads/climatechangedata.csv')
+A global research institution specializes in the monitoring of climate change across multiple dimensions and regions and requires an interactive dashboard for analyzing  climate trends. I will be creating a centralized, interactive dashboard to track key climate indicators, visualize extreme weather events, and assess their economic and infrastructural impact in real time.
 
-df.shape
 
-df.head()
 
-df.columns
+The organization faces critical challenges in:
 
-df.dtypes
+Tracking climate trends – Climate data is scattered and lacks a unified view,
 
-df.describe()
+making it hard to analyze temperature fluctuations, air quality shifts and precipitation patterns.
 
-df['Date'] = pd.to_datetime(df['Date'])
 
-df['Date'].dt.year
 
-df['year'] = df['Date'].dt.year
-df
+Generating actionable Insights – Traditional reports are static and time-consuming, slowing down decision-making processes. 
 
-new_df = df[['year', 'Country', 'City']]
-new_df
 
-average_by_country = df.groupby(['year', 'Country', 'City'])['Humidity'].mean()
-print(average_by_country)
 
-average_by_country = df.groupby(['year', 'Country', 'City'])['Heat Index'].mean()
-print(average_by_country)
+Assessing Climate Risks Visually – There is no structured way to visualize how extreme weather events impact infrastructure, population exposure, and economic stability across different regions.
 
-average_by_country = df.groupby(['year', 'Country', 'City'])['Wind Speed'].mean()
-print(average_by_country)
 
-average_by_country = df.groupby(['year', 'Country', 'City']).agg({
-    'Humidity': 'mean',
-    'Heat Index': 'mean'
-}).reset_index()
-print(average_by_country)
+
+Solution
+
+To solve these issues I will be creating an interactive dashboard that provides real-time insights helping researchers and policymakers explore and analyze KPI’s in a flexible and interactive manner quickly identify climate risks and trends at a glance.
